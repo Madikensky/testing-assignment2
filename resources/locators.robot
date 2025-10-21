@@ -18,3 +18,20 @@ ${LOGIN_MODAL}            id=logInModal
 # Log Out Elements
 
 ${LOGOUT_BUTTON}          id=logout2
+
+# Buy product
+
+${PHONE_NEXUS_6}                       xpath=//*[@id="tbodyid"]/div[3]
+${ADD_TO_CART_BUTTON}                  xpath=//*[@id="tbodyid"]/div[2]/div/a
+${CART PAGE}                           id=cartur
+${PLACE_ORDER_BUTTON}                  xpath=//*[@id="page-wrapper"]/div/div[2]/button
+${PLACE_ORDER_MODAL}                   id=orderModal
+
+${NAME_FIELD}                          id=name
+${COUNTRY_FIELD}                       id=country
+${CITY_FIELD}                          id=city
+${CREDIT_CARD_FIELD}                   id=card
+${MONTH_FIELD}                         id=month
+${YEAR_FIELD}                          id=year
+
+${PURCHASE_BUTTON}                     xpath=//*[@id="orderModal"]/div/div/div[3]/button[2]
