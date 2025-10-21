@@ -28,3 +28,8 @@ Log In With Credentials
     Input Text    ${LOGIN_PASSWORD_FIELD}    ${password}
     Click Element    ${LOGIN_SUBMIT_BUTTON}
     Sleep    2s
+
+Log Out
+    Click Element    ${LOGOUT_BUTTON}
+    Wait Until Element Is Visible    ${SIGNUP_BUTTON}
+    Sleep    2s
