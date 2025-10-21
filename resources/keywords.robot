@@ -19,3 +19,12 @@ Sign Up With Credentials
     Input Text    ${SIGNUP_PASSWORD_FIELD}    ${password}
     Click Element    ${SIGNUP_SUBMIT_BUTTON}
     Sleep    2s
+
+Log In With Credentials
+    [Arguments]    ${username_field}    ${password_field}
+    Click Element    ${LOGIN_BUTTON}
+    Wait Until Element Is Visible    ${LOGIN_MODAL}    5s
+    Input Text    ${LOGIN_USERNAME_FIELD}    ${username}
+    Input Text    ${LOGIN_PASSWORD_FIELD}    ${password}
+    Click Element    ${LOGIN_SUBMIT_BUTTON}
+    Sleep    2s
