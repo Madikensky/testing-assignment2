@@ -1,0 +1,84 @@
+===========================
+Automated Test Cases Description
+===========================
+
+Project: DemoBlaze Web Application
+Purpose: Demonstrate automated testing of user workflows using Robot Framework and SeleniumLibrary.
+
+---------------------------------------------------------
+1. Sign Up Test
+---------------------------------------------------------
+Purpose:
+Verify that a new user can successfully register on the website.
+
+Steps to Automate:
+1. Open the DemoBlaze website.
+2. Click the "Sign up" button in the navigation bar.
+3. Wait for the sign-up modal window to appear.
+4. Enter a valid username and password.
+5. Click the "Sign up" button inside the modal.
+6. Verify that an alert appears confirming successful registration.
+7. Close the browser.
+
+Expected Result:
+- Alert message confirms successful registration.
+
+---------------------------------------------------------
+2. Log In Test
+---------------------------------------------------------
+Purpose:
+Verify that an existing user can log in successfully.
+
+Steps to Automate:
+1. Open the website.
+2. Click the "Log in" button.
+3. Wait for the login modal to appear.
+4. Enter a valid username and password.
+5. Click the "Log in" button.
+6. Verify that the "Log out" button appears.
+7. Close the browser.
+
+Expected Result:
+- User is logged in and the "Log out" button is visible.
+
+---------------------------------------------------------
+3. Log Out Test
+---------------------------------------------------------
+Purpose:
+Verify that a logged-in user can log out successfully.
+
+Steps to Automate:
+1. Log in as a valid user.
+2. Click the "Log out" button.
+3. Verify that the "Log in" button is visible again.
+4. Close the browser.
+
+Expected Result:
+- User is logged out and the "Log in" button is visible.
+
+---------------------------------------------------------
+4. Buy Product Test
+---------------------------------------------------------
+Purpose:
+Verify that a logged-in user can select and purchase a product.
+
+Steps to Automate:
+1. Log in with valid credentials.
+2. Choose a product (in my case for example Nexus 6) from the homepage.
+3. Click on the product to open its detail page.
+4. Click the "Add to Cart" button.
+5. Handle the alert that confirms the product was added.
+6. Open the Cart page.
+7. Click "Place Order".
+8. Fill in the order form (name, country, city, credit card, month, year).
+9. Submit the order.
+10. Verify that a confirmation message appears.
+11. Close the browser.
+
+Expected Result:
+- Product is successfully added to the cart.
+- Order confirmation appears after placing the order.
+
+===========================
+End of Test Cases Description
+===========================

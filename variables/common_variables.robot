@@ -1,7 +1,7 @@
 *** Variables ***
 ${URL}        https://www.demoblaze.com/
 ${BROWSER}    chrome
-${USERNAME}   madikensky
+${USERNAME}   madikensky4
 ${PASSWORD}   123
 
 ${NAME}         madik
