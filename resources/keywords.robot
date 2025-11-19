@@ -43,7 +43,7 @@ Add Item To the Cart
     Wait Until Element Is Visible    ${ADD_TO_CART_BUTTON}
     Click Element    ${ADD_TO_CART_BUTTON}
     Sleep    1s
-    Handle Alert
+    # Handle Alert
 
 Go To Cart PAGE
     Click Element    ${CART PAGE}
