@@ -1,6 +1,7 @@
 userName: madiyar_43hWA7
 accessKey: G5oqXEGC3sT8ZLukBhPV
 # buildIdentifier: jenkins-${BUILD_NUMBER}
+"buildIdentifier": "jenkins-HW_Tests_BrowserStack-13",
 platforms:
   - os: Windows
     osVersion: 10
