@@ -1,6 +1,6 @@
 userName: madiyar_43hWA7
 accessKey: G5oqXEGC3sT8ZLukBhPV
-buildIdentifier: jenkins-${BUILD_NUMBER}
+# buildIdentifier: jenkins-${BUILD_NUMBER}
 platforms:
   - os: Windows
     osVersion: 10
