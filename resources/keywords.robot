@@ -30,6 +30,7 @@ Log In With Credentials
     Sleep    2s
 
 Log Out
+    Wait Until Element Is Visible    ${LOGOUT_BUTTON}    10s
     Click Element    ${LOGOUT_BUTTON}
     Wait Until Element Is Visible    ${SIGNUP_BUTTON}
     Sleep    2s
@@ -42,7 +43,7 @@ Add Item To the Cart
     Wait Until Element Is Visible    ${ADD_TO_CART_BUTTON}
     Click Element    ${ADD_TO_CART_BUTTON}
     Sleep    1s
-    Handle Alert
+    # Handle Alert
 
 Go To Cart PAGE
     Click Element    ${CART PAGE}

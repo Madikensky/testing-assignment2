@@ -1,0 +1,8 @@
+datasources:9cdc0c94cf8524afcae46a41edd7924ca6040ad1
+commandlineoptions:b67b7a2c541f5d1aeffe0807c3efd611b65c4a4c
+suitesfrom:no-suites-from-option
+file:cfcff6f30ad333fe90180f2ae157f8b54c116f4b
+--suite Tests.04 Buyproduct Test
+--suite Tests.01 Signup Test
+--suite Tests.02 Login Test
+--suite Tests.03 Logout Test

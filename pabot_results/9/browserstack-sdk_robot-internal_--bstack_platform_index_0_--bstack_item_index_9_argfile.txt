@@ -1,0 +1,18 @@
+--suite Tests.03 Logout Test
+--variable BSTACKDEFLOCALIDENTIFIER:
+--variable BSTACKPLATFORMINDEX:0
+--variable CALLER_ID:7b90aa1791fc4c9a8c71f07ab8fd71b4
+--variable PABOTLIBURI:127.0.0.1:8270
+--variable PABOTEXECUTIONPOOLID:0
+--variable PABOTISLASTEXECUTIONINPOOL:0
+--variable PABOTNUMBEROFPROCESSES:3
+--variable PABOTQUEUEINDEX:9
+--variable PABOTLASTLEVEL:Tests.03 Logout Test.PABOT_noend
+--listener C:\Users\Madiyar\AppData\Local\Programs\Python\Python312\Lib\site-packages\browserstack_sdk\bstack_robot_listener.py
+--log NONE
+--report NONE
+--xunit NONE
+--outputdir .\pabot_results\9
+--consolecolors off
+--consolemarkers off
+tests/

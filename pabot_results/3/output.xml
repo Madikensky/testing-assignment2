@@ -1,0 +1,87 @@
+<robot generator="Robot 7.3.2 (Python 3.12.4 on win32)" generated="2025-11-19T21:47:39.231294" rpa="false" schemaversion="5">
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Tests" id="s1" pass="1" fail="0" skip="0">Tests</stat>
+<stat name="01 Signup Test" id="s1-s1" pass="1" fail="0" skip="0">Tests.01 Signup Test</stat>
+</suite>
+</statistics>
+<suite name="Suites" id="s0"><suite id="s1-s1" name="01 Signup Test Windows, 10, Chrome, 120.0" source="C:\Users\Madiyar\Desktop\projects\testing\testing-assignment2\tests\01_signup_test.robot">
+<test id="s1-s1-t1" name="Sign Up Test" line="6">
+<kw name="Open Website" owner="keywords">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-11-19T21:47:39.293115" level="INFO">Opening browser 'chrome' to base url 'https://www.demoblaze.com/'.</msg>
+<msg time="2025-11-19T21:47:39.345616" level="INFO">Completed setup!</msg>
+<arg>${URL}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2025-11-19T21:47:39.292118" elapsed="7.271678" />
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2025-11-19T21:47:46.564796" elapsed="0.695398" />
+</kw>
+<status status="PASS" start="2025-11-19T21:47:39.291118" elapsed="7.971081" />
+</kw>
+<kw name="Sign Up With Credentials" owner="keywords">
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-11-19T21:47:47.263200" level="INFO">Clicking element 'xpath=//*[@id="signin2"]'.</msg>
+<arg>${SIGNUP_BUTTON}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-11-19T21:47:47.263200" elapsed="0.779556" />
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>${SIGNUP_MODAL}</arg>
+<arg>5s</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2025-11-19T21:47:48.044770" elapsed="0.543386" />
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-11-19T21:47:48.589154" level="INFO">Typing text 'madikensky4' into text field 'id=sign-username'.</msg>
+<arg>${SIGNUP_USERNAME_FIELD}</arg>
+<arg>${username_field}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-11-19T21:47:48.589154" elapsed="0.861611" />
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-11-19T21:47:49.451768" level="INFO">Typing text '123' into text field 'id=sign-password'.</msg>
+<arg>${SIGNUP_PASSWORD_FIELD}</arg>
+<arg>${password_field}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-11-19T21:47:49.451768" elapsed="0.999168" />
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-11-19T21:47:50.452937" level="INFO">Clicking element 'xpath=//*[@id="signInModal"]/div/div/div[3]/button[2]'.</msg>
+<arg>${SIGNUP_SUBMIT_BUTTON}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-11-19T21:47:50.451941" elapsed="1.017772" />
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-11-19T21:47:53.472194" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-11-19T21:47:51.470709" elapsed="2.001485" />
+</kw>
+<arg>${USERNAME}</arg>
+<arg>${PASSWORD}</arg>
+<status status="PASS" start="2025-11-19T21:47:47.262199" elapsed="6.210997" />
+</kw>
+<kw name="Close Website" owner="keywords">
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2025-11-19T21:47:53.474194" elapsed="0.001004" />
+</kw>
+<status status="PASS" start="2025-11-19T21:47:53.474194" elapsed="0.002003" />
+</kw>
+<status status="PASS" start="2025-11-19T21:47:39.289582" elapsed="14.186615" />
+</test>
+<status status="PASS" start="2025-11-19T21:47:39.247305" elapsed="16.418192" />
+</suite>
+<status status="PASS" start="2025-11-19T21:47:39.247305" elapsed="16.418192" />
+</suite><errors>
+</errors>
+</robot>
